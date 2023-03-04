@@ -1,0 +1,30 @@
+-- create database workers;
+-- create table workersTable(
+-- Worker_ID varchar(10) not null,
+-- First_Name varchar(30) not null,
+-- Last_Name varchar(30) not null,
+-- Salary int not null,
+-- Joining_Date varchar(20) not null,
+-- Department varchar(10) not null
+-- );
+-- insert into workerstable values('001','Monika','Arora',100000,'2014-02-20,09:00:00','HR');
+-- insert into workerstable values('002','Niharika','Verma',80000,'2014-06-11,09:00:00','Admin');
+-- insert into workerstable values('003','Vishal','Singhal',300000,'2014-02-20,09:00:00','HR');
+-- insert into workerstable values('004','Amitabh','Singh',500000,'2014-02-20,09:00:00','Admin');
+-- insert into workerstable values('005','Vivek','Bhati',500000,'2014-06-11,09:00:00','Admin');
+-- insert into workerstable values('006','Vipul','Diwan',200000,'2014-06-11,09:00:00','Account');
+-- insert into workerstable values('007','Satish','Kumar',75000,'2014-01-20,09:00:00','Account');
+-- insert into workerstable values('008','Geetika','Chauhan',90000,'2014-04-11,09:00:00','Admin');
+-- select First_Name as WORKER_NAME from workersTable;
+-- select position('a' in First_Name) from workersTable;
+-- select replace(First_Name,'a','A')from workersTable;  
+-- select * from workerstable order by First_Name;
+-- select * from workerstable order by First_Name asc,Department desc;
+--  select * from workerstable where First_Name ='Vipul' or First_Name='Satish';
+--  select * from workerstable where Department='Admin';
+-- select * from workerstable where First_Name like '%a%';
+-- Task 2: Queries
+-- select *from workerstable where Salary BETWEEN 100000 AND 500000; 
+-- select * from workerstable where length(First_Name)=6 and First_Name like'%h';
+-- select * from workerstable where Joining_Date like '2014-02%';
+-- select * from workerstable where Salary >=50000 and Salary<=100000;
